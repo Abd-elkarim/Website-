@@ -1,0 +1,286 @@
+body{
+	background:#F1F1F1;
+}
+
+.container{
+	width:1170px;	
+	margin:auto;
+	overflow: hidden;
+}
+ 
+.header .container{
+	width:100%;	
+	background:white;
+}
+
+.div1:hover , .div2:hover ,.div3:hover{
+	cursor:pointer;
+	background:#ccc	;
+}
+
+.div1 , .div2 ,.div3{
+	font-size:20px;
+	padding:10px;
+	text-decoration:none;	
+ 
+}
+.div1 {
+	float:left;
+	color:white;
+	background:#7aa;
+}
+.div2{
+	float:left;
+	color:black;
+	background:#fff;
+}
+
+.div3{
+	float:right; 
+	color:white;
+	background:#7aa;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+.HeaderPhoto{
+	clear:both;
+	width:100%;
+} 
+
+
+.HeaderPhoto .container .photo1{
+	width: 100%;
+}
+
+.HeaderPhoto .container .p2 {
+	font-size:15px;
+}
+
+.label1  , .label2  , .label3 , .label4, .label5 {
+	float: left;
+	margin-right: 20px;
+}
+
+.label1 .input , .label2 .input ,  .label5 .inputbutton{
+	display: block;
+	width: 230px; 
+	height: 30px;
+}
+
+.label3 .inputKids, .label4 .inputKids{
+	display: block;
+	width: 176px; 
+	height: 30px;
+}
+.HeaderPhoto .booking .label5 .inputbutton	{
+	color:white;
+	background:black;	
+	height: 40px;	
+	width: 242px;;
+}
+
+.HeaderPhoto  .booking .inputbutton:hover{
+	cursor:pointer;
+	background:#ccc	;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+.photos .container{
+	clear: both;
+}
+
+.photos .container .photo1{
+	float:left;
+	width:32.3%;
+	height:350px;
+	margin-top:30px;
+	margin-right:10px;
+
+}
+
+
+.photos  .ds1 , .photos  .ds2 , .photos  .ds3{
+	float:left;
+	width:32.3%;
+	height:220px;
+	background:white;
+	margin-right:10px;
+	margin-bottom:50px;
+	
+}
+
+.photos  .ds1  .s1  , .photos  .ds2  .s1 , .photos  .ds3  .s1  {
+	font-size:22px;
+	background:white;
+}
+
+.photos  .ds1  .s2  , .photos  .ds2  .s2 , .photos  .ds3  .s2 {
+	font-size:18px;
+	color:#DDD;
+	
+}
+
+.photos  .ds1  .s3  , .photos  .ds2  .s3 , .photos  .ds3  .s3 {
+	font-size:16px;	
+}
+
+.photos  .ds1  span , .photos  .ds2  span , .photos  .ds3  span  , .photos  .ds1 .buttonchoose , .photos  .ds2 .buttonchoose , .photos  .ds3 .buttonchoose{
+	margin:10px;
+}
+
+
+.photos  .ds1   .buttonchoose , .photos  .ds2   .buttonchoose , .photos  .ds3   .buttonchoose{
+	background:black;
+	width:100%;
+	color:white;
+	padding:3%
+}
+
+.photos .container .ds1 .buttonchoose:hover ,
+.photos .container .ds2 .buttonchoose:hover , 
+.photos .container .ds3 .buttonchoose:hover {
+	cursor:pointer;
+	background:#ccc
+}
+
+.two .container .paragraph {
+	width:33%;
+	height:auto;
+	margin-right: 10px;
+	line-height:30px;
+	font-size:18px;
+	float:left;
+}
+
+.two .container .photomap img{
+	width:65%;
+	height:550px;
+	position:2100;
+}
+
+.details .container .paragraph p{
+	float:left;
+	width:33.3%;
+	margin-top:30px;
+	margin-bottom:30px;
+	text-align:center;
+	font-size:X-large;
+	margin-left: 1000; 
+}
+
+.shape .container .paragraph p{
+	clear:both;
+	background:black	;
+	font-size:20px;
+	margin-top:30px;
+	margin-bottom:30px;
+	padding: 40px 20px ;
+	color:white;
+	width: 100%;
+}
+
+.OurHotels .container .p1 img{
+	float:left;
+	width:49%;
+	height:610px;
+	margin: 0px 5px ;
+}
+
+
+.OurHotels  .p1 ,
+.OurHotels  .p2	 ,
+.OurHotels  .p3  {
+	position: relative;
+}
+ 
+.OurHotels  span {
+	position: absolute;
+    left: 42%;
+    top: 570px;
+	color: #EEE;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.OurHotels .container .p2 img{
+	float:left;
+	width:24%;
+	height:300px;
+	margin: 0px 5px 5px ;
+}
+
+
+.OurHotels .container .p3 img{
+	float:left;
+	width:24%;
+	height:300px;
+	margin: 0px 5px 50px;
+}
+
+/*****************************************************************************************/
+
+.Gebestoffers .container .paragraph{	
+	clear:both;
+	width:100%;
+	padding:30px 20px;
+	background:black;
+	color:white;
+	overflow: hidden;
+}
+
+.Gebestoffers .container .paragraph .buttonemail{
+	width:150%;
+	padding:10px 0 ;
+}
+
+.Gebestoffers .container .paragraph  .buttonsubscribe{
+	display: block;
+	width:100px;
+	margin:30px 0;
+	padding:10px;
+	background:black;
+	color:white;
+}
+
+.Gebestoffers .container .paragraph	   .buttonsubscribe:hover{
+	cursor:pointer;
+	background:#CCC	;
+}
+
+/********************************************************************************/
+
+.contact  .paragraph i{
+	float: left;;
+	margin-right:10px;
+}		 
+
+.contact  .paragraph .textname ,
+.contact  .paragraph .textemail ,
+.contact  .paragraph .textmessage{
+	width:99%;
+	height:40px;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:10px
+}		 
+
+.contact  .paragraph .button{
+	background:black;
+	color:white;
+	margin:10px 0 ;
+	padding:10px 25px 10px 25px;
+}
+
+.contact   .paragraph .button:hover{
+	background:#ccc	;
+	cursor:pointer;	
+}
+
+
+.findus {
+	background:black;
+	color:white;
+	text-align:center;
+	margin-top:20px;
+	padding:40px;
+}
